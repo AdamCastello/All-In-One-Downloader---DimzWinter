@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Besmild Downloader</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="topbar">
+        <div class="logo-holder">
+            <div class="logo-image">
+                <img src="../assets/images/logo.png" alt="Logo">
+            </div>
+        </div>
+        <div class="title-wrapper">
+            <div class="main-title">Besmild Downloader</div>
+            <div class="sub-title">All In One Downloader</div>
+        </div>
+        <div class="theme-switcher">
+            <div class="switcher-labels">
+                <span><i class="fa-solid fa-palette"></i></span>
+                <span><i class="fa-regular fa-sun"></i></span>
+                <span><i class="fa-regular fa-moon"></i></span>
+            </div>
+            <div class="switcher-track">
+                <div class="switcher-thumb">
+                    <i class="fa-regular fa-futbol"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <div class="main">
+        <div class="cards-container">
+            <div class="cards-column">
+                <div class="card" data-service="ytdl">
+                    <div class="card-image-holder">
+                        <img src="../assets/images/cards/card1.png" alt="YTDL">
+                    </div>
+                    <div class="card-text">
+                        <div class="card-title">YTDL</div>
+                        <div class="card-subtitle">Youtube Video/Audio Downloader</div>
+                    </div>
+                </div>
+                <div class="card" data-service="igdl">
+                    <div class="card-image-holder">
+                        <img src="../assets/images/cards/card3.png" alt="IGDL">
+                    </div>
+                    <div class="card-text">
+                        <div class="card-title">IGDL</div>
+                        <div class="card-subtitle">Instagram Video/Reels Downloader</div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards-column">
+                <div class="card" data-service="tiktok">
+                    <div class="card-image-holder">
+                        <img src="../assets/images/cards/card5.png" alt="TTDL">
+                    </div>
+                    <div class="card-text">
+                        <div class="card-title">TTDL</div>
+                        <div class="card-subtitle">Tiktok Video/Audio Downloader</div>
+                    </div>
+                </div>
+                <div class="card" data-service="fbdl">
+                    <div class="card-image-holder">
+                        <img src="../assets/images/cards/card4.png" alt="FBDL">
+                    </div>
+                    <div class="card-text">
+                        <div class="card-title">FBDL</div>
+                        <div class="card-subtitle">Facebook Video Downloader</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="download-card">
+            <div class="download-title">Masukkan Link Youtube, Instagram, Facebook, dan Tiktok</div>
+            <input type="text" class="download-input" placeholder="Masukkan link di sini...">
+            <button class="download-button">Download</button>
+        </div>
+        <div class="console-card">
+            <div class="console-topbar">
+                <div class="console-dots">
+                    <div class="console-dot dot-red"></div>
+                    <div class="console-dot dot-yellow"></div>
+                    <div class="console-dot dot-green"></div>
+                </div>
+                <div class="console-title">Console Log</div>
+            </div>
+            <div class="console-divider"></div>
+            <div class="console-main" id="consoleLog">
+                <div class="console-placeholder">Menunggu proses download...</div>
+            </div>
+        </div>
+        <div class="preview-card">
+            <div class="preview-topbar">
+                <div class="preview-dots">
+                    <div class="preview-dot dot-red"></div>
+                    <div class="preview-dot dot-yellow"></div>
+                    <div class="preview-dot dot-green"></div>
+                </div>
+                <div class="preview-title">Preview</div>
+            </div>
+            <div class="preview-divider"></div>
+            <div class="preview-main" id="previewContainer">
+                <div class="preview-placeholder">
+                    <i class="fa-solid fa-play"></i>
+                    <span>Preview akan muncul di sini</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-text">©DimzWinterㅤ-ㅤAll In One Downloader</div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
